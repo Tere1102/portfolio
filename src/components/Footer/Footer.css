@@ -6,11 +6,9 @@
     text-align: center;
 }
 
+/* Ocultar el footer en pantallas pequeñas */
 @media (max-width: 768px) {
     .Footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
+        display: none;
     }
 }
