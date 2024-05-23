@@ -1,6 +1,4 @@
 .socialNetworks {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -13,15 +11,19 @@
     height: 25px;
 }
 
+/* Para dispositivos móviles */
 @media (max-width: 768px) {
-    .socialNetworks {
+    .navStyles {
         flex-direction: column;
-        align-items: flex-end;
+        /* Cambia a una disposición de columna */
+        align-items: center;
+        /* Centra los elementos */
         gap: 10px;
+        /* Añade espacio entre elementos */
     }
 
-    .socialNetworks a {
-        width: 20px;
-        height: 20px;
+    .navLink {
+        margin-bottom: 10px;
+        /* Añade espacio debajo de cada enlace */
     }
 }

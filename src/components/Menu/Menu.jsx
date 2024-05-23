@@ -9,9 +9,9 @@ const Menu = () => {
         <header className='headerStyles'>
             <span className='logo'> <img src={coding} alt="Logo" /></span>
             <nav className='navStyles'>
-                <Link to='/'> <span className='initial'>I</span>nicio</Link>
-                <Link to='projects'><span className='initial' >P</span>royectos</Link>
-                <Link to='aboutme'><span className='initial'>S</span>obre mí</Link>
+                <Link to='/' className='navLink'> <span className='initial'>I</span>nicio</Link>
+                <Link to='projects' className='navLink'><span className='initial' >P</span>royectos</Link>
+                <Link to='aboutme' className='navLink'><span className='initial'>S</span>obre mí</Link>
             </nav>
             <SocialNetworks />
         </header>

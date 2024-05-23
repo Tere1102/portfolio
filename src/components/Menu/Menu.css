@@ -9,20 +9,19 @@
 }
 
 .navStyles {
-    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    width: 100%;
 }
 
-.navStyles a {
-    font-size: 1.3rem;
+.navLink {
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
     font-weight: 600;
+    padding: 0 10px;
 }
-
 
 .initial {
     font-size: 1.2rem;
@@ -32,14 +31,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 768px) {
-    .navStyles {
-        justify-content: space-between;
-        gap: 0;
-    }
-
-    .navStyles a {
-        font-size: 1.2rem;
-        padding: 10px;
-    }
+.logo img {
+    max-height: 50px;
 }
