@@ -1,0 +1,89 @@
+.home {
+    width: 85%;
+    height: 86vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeArticle {
+    width: 420px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeArticle h1 {
+    font-size: 3rem;
+}
+
+.homeArticle p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.homeArticle .homeDivs {
+    display: flex;
+    gap: 5px;
+}
+
+.homeArticle .homeDivs div {
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    display: flex;
+    width: 10px;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.homeButtons {
+    max-width: 420px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.homeButtons h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.homeButtons div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeButtons div a {
+    color: black;
+    width: 140px;
+    height: 45px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeButtons div a:hover {
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+}
+
+@media (min-width: 768px) {
+    .home {
+        grid-template-columns: 65% 35%;
+    }
+}

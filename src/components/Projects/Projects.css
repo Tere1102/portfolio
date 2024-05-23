@@ -1,0 +1,78 @@
+.projects {
+    width: 85%;
+    height: 86vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 6vh 0;
+
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cards p {
+    width: 300px;
+}
+
+.cards .card {
+    width: 300px;
+    height: auto;
+    border: 2px solid #77236e;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: translateY(-3px);
+}
+
+.cards .card img {
+    border-radius: 6px 6px 0 0;
+}
+
+.cards .card h3 {
+    text-align: center;
+}
+
+.cards .card p {
+    padding: 0 10px;
+    font-weight: 600px;
+}
+
+.cards .card .tech {
+    padding: 0 10px;
+}
+
+.cards .card .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techIcons .techImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.techIcons h2 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
