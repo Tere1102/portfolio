@@ -9,69 +9,67 @@ import javascript from './../../assets/javascript.svg'
 import bootstrap from './../../assets/bootstrap.svg'
 import nodejs from './../../assets/nodejs.svg'
 import react from './../../assets/react.svg'
+import { Row, Col } from 'react-bootstrap'
+import Animation2 from './../../assets/Animation2.gif'
 
 const Projects = () => {
-
     const cards = [
         {
-            image: [P2],
+            image: P2,
             name: 'Traffic-Jungle',
-            description: 'Traffic-Jungle es un videojuego arcade en 2D desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los vehiculos del tablero sin que colisionen entre ellos.',
+            description: 'Traffic-Jungle es un videojuego arcade 2D desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los vehiculos del tablero sin que colisionen entre ellos.',
             tech: [html, CSS, javascript],
             url: 'https://github.com/Tere1102/Traffic-Jungle'
         },
         {
-            image: [P1],
+            image: P1,
             name: 'RipCamp App',
             description: 'RipCamp es una SPA (Single Page Application) creada en una semana con React, React Bootstrap, CSS y HTML. Conecta a los estudiantes actuales de los bootcamps de Data Analytics y Desarrollo Web, con ex alumnos y profesores para ayudarlos a resolver preguntas técnicas y problemas realiacionados con sus estudios y proyectos.',
             tech: [html, CSS, javascript, bootstrap],
             url: 'https://ripcamp.netlify.app/'
         },
         {
-            image: [P3],
+            image: P3,
             name: 'Miauyuda App',
             description: 'Miauyuda es una SPA diseñada para conectar veterinarios y dueños de mascotas las 24/7. Permite a los usuarios registrarse como veterinarios o clientes, ofreciendo dos contextos distintos. Además, cuenta con un chatbot de IA para consultas instantáneas y una integración de Google Maps para localizar profesionales.',
             tech: [html, CSS, javascript, bootstrap, nodejs, react],
             url: 'https://miauyuda.netlify.app/'
-        },
-
-    ]
+        }
+    ];
 
     return (
         <section className='projects'>
-            <h2>Proyectos</h2>
+            <h2>Mis Proyectos</h2>
+            <img className='black-gif' src={Animation2} alt="Logo" />
+
             <div className='cards'>
+                {cards.map((card, index) => (
+                    <Row key={index} className='mb-4 project-row'>
 
-                {
-                    cards.map((card, index) => {
-                        return (
-                            <div key={index} className='card'>
-                                <div className='img'>
-                                    <img width="100%" height="175px" src={card.image} alt="imagen proyecto" />
-                                </div>
-                                <h3>{card.name}</h3>
+                        <Col md={5} className='project-image'>
+                            <img src={card.image} alt={card.name} style={{ width: '500px' }} />
+                        </Col>
 
-                                <p>{card.description}</p>
-
-                                <div className='tech'>
-                                    {card.tech.map((techIcon, i) => (
-                                        <img key={i} width="30px" src={techIcon} alt="tecnologías" />
-                                    ))}
-                                </div>
-                                <div className='github'>
-                                    <a href={card.url} target="_blank">
-                                        <img width="30px" src={github} alt="github logo" />
-                                    </a>
-                                </div>
+                        <Col md={7} className='project-details' style={{ width: '600px' }} >
+                            <h3>{card.name}</h3>
+                            <p>{card.description}</p>
+                            <div className='tech-icons'>
+                                {card.tech.map((techIcon, i) => (
+                                    <img key={i} src={techIcon} alt='tech' className='tech-icon' />
+                                ))}
                             </div>
-                        )
-                    })
-                }
+                            <div className='github-link'>
+                                <a className='github-link' href={card.url} target='_blank' rel='noopener noreferrer'>
+                                    **Pulsa para ver el código ver el repo en GitHub <img src={github} alt='GitHub logo' className='github-icon' />
+                                </a>
+                            </div>
+                        </Col>
 
+                    </Row>
+                ))}
             </div>
-
         </section>
-    )
+    );
+};
 
-}
 export default Projects

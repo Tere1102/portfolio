@@ -1,78 +1,84 @@
 .projects {
-    width: 85%;
-    height: 86vh;
-    margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 6vh 0;
+    align-items: center;
+    padding: 20px;
 
 }
 
 .projects h2 {
-    text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.black-gif {
+    filter: brightness(0%) grayscale(100%);
 }
 
 .cards {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-.cards p {
-    width: 300px;
-}
-
-.cards .card {
-    width: 300px;
-    height: auto;
-    border: 2px solid #77236e;
-    border-radius: 7px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    transition: all 0.2s ease-in-out;
+    transition: transform 0.9s ease;
 }
 
-.cards .card:hover {
-    transform: translateY(-3px);
+.project-row:hover {
+    transform: translateY(-6px);
 }
 
-.cards .card img {
-    border-radius: 6px 6px 0 0;
+.project-image img {
+
+    object-fit: cover;
+    border-radius: 5%;
 }
 
-.cards .card h3 {
-    text-align: center;
-}
-
-.cards .card p {
-    padding: 0 10px;
-    font-weight: 600px;
-}
-
-.cards .card .tech {
-    padding: 0 10px;
-}
-
-.cards .card .github {
+.project-details {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFF;
+    border: 1px solid rgba(58, 148, 56, 0.20);
+    border-radius: 16px;
+    padding: 20px;
+    transition: transform 0.9s ease;
 }
 
-.techIcons .techImg {
+.project-details:hover {
+    transform: translateY(-6px);
+}
+
+.tech-icons {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    gap: 10px;
 }
 
-.techIcons h2 {
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 30px;
+.tech-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.github-link {
+    text-decoration: none;
+    color: black;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .project-row {
+        flex-direction: column;
+    }
 }
