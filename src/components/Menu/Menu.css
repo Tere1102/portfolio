@@ -1,0 +1,47 @@
+.navMobile {
+    display: none;
+}
+
+.headerStyles {
+    z-index: 9;
+    width: 85%;
+    height: 8vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items: center;
+}
+
+.navStyles {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.navStyles a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.initial {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
