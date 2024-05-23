@@ -1,14 +1,16 @@
 .homeArticle {
     width: 90%;
     max-width: 450px;
+    height: 700px;
     margin: 70px auto 20px;
-    /* Alineación central y espacio inferior */
     padding: 15px;
 }
 
 .homeArticle h1 {
-    font-size: 3rem;
+    font-size: 40px;
+    margin-top: 20px;
 }
+
 
 .homeArticle p {
     font-size: 1.2rem;
@@ -30,29 +32,33 @@
     border-radius: 50%;
 }
 
+
 .homeButtons {
     width: 90%;
-    max-width: 450px;
+    max-width: 410px;
+    height: 700px;
     margin: 70px auto 20px;
     padding: 15px;
     text-align: center;
 }
 
 
-.homeButtons h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
+.homeButtons h1 {
+    font-size: 40px;
+    margin-top: 50px;
 }
+
+
 
 .homeButtons div {
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    margin: auto;
 }
 
 .homeButtons div a {
@@ -75,7 +81,9 @@
 
 
 @media (max-width: 768px) {
-    .homeButtons div a {
-        animation: none !important;
+
+    .homeArticle,
+    .homeButtons {
+        margin-bottom: 10px;
     }
 }

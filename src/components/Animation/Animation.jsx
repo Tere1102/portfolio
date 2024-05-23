@@ -1,9 +1,12 @@
 import './../Animation/Animation.css'
+import React from 'react'
+import animationImage from './../../assets/Animation2.gif'
 
 const Animation = () => {
     return (
-
-        <span className="loader"></span>
+        <div className="animationContainer">
+            <img src={animationImage} alt="Animation" className="loader" />
+        </div>
     )
 }
 
