@@ -69,6 +69,7 @@ const Projects = () => {
                 ))}
             </div>
         </section>
+
     );
 };
 
