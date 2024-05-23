@@ -1,15 +1,12 @@
 .home {
     width: 85%;
-    height: 92vh;
+    height: 86vh;
     margin: auto;
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    padding-bottom: 16vh;
 }
-
-
 
 .homeArticle {
     width: 420px;
@@ -83,4 +80,10 @@
 
 .homeButtons div a:hover {
     background: linear-gradient(180deg, #3f5efb, #fc466b);
+}
+
+@media (min-width: 768px) {
+    .home {
+        grid-template-columns: 65% 35%;
+    }
 }

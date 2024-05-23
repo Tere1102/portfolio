@@ -1,7 +1,7 @@
 import './../Menu/Menu.css'
 import { Link } from 'react-router-dom'
 import SocialNetworks from './../Menu/SocialNetworks.jsx'
-//prueba
+
 const Menu = () => {
     return (
         <header className='headerStyles'>

@@ -1,10 +1,11 @@
 .projects {
     width: 85%;
-    height: auto;
+    height: 86vh;
     margin: auto;
     display: flex;
     flex-direction: column;
     padding: 6vh 0;
+
 }
 
 .projects h2 {
