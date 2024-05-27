@@ -1,14 +1,13 @@
 .homeArticle {
     width: 90%;
     max-width: 450px;
-    height: 700px;
+    height: 550px;
     margin: 70px auto 20px;
     padding: 15px;
 }
 
 .homeArticle h1 {
     font-size: 40px;
-    margin-top: 20px;
 }
 
 
@@ -21,9 +20,11 @@
 .homeArticle .homeDivs {
     display: flex;
     gap: 5px;
+    margin-top: 50px;
 }
 
-.homeArticle .homeDivs div {
+
+.homeArticle .homeDivs .div {
     background: linear-gradient(180deg, #3f5efb, #fc466b);
     display: flex;
     width: 10px;
@@ -32,12 +33,32 @@
     border-radius: 50%;
 }
 
+.divHomeImage {
+    width: 90%;
+    max-width: 410px;
+    height: 550px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.homeImage {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+.divHomeImage img {
+    border: 4px solid rgb(29, 28, 28);
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 .homeButtons {
     width: 90%;
     max-width: 410px;
-    height: 700px;
-    margin: 70px auto 20px;
+    height: 550px;
+    margin: 80px auto 20px;
     padding: 15px;
     text-align: center;
 }
@@ -45,7 +66,6 @@
 
 .homeButtons h1 {
     font-size: 40px;
-    margin-top: 50px;
 }
 
 

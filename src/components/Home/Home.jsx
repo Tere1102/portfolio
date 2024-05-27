@@ -1,13 +1,15 @@
 import './../Home/Home.css'
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import teresa from './../../assets/teresa.jpg'
+
 
 const Home = () => {
     return (
 
 
         <Row className='mb-4 project-row'>
-            <Col md={6} className='homeArticle'>
+            <Col md={4} className='homeArticle'>
                 <article className='homeArticle'>
                     <h1> Full Stack Developer</h1>
                     <p>Apasionada programadora con un enfoque especializado en el desarrollo web.
@@ -21,9 +23,13 @@ const Home = () => {
                 </article>
             </Col>
 
+            <Col md={4}>
+                <div className='divHomeImage'>
+                    <img className='homeImage' src={teresa} alt=" foto de perfil" />
+                </div>
+            </Col>
 
-
-            <Col md={6} className='homeButtons'>
+            <Col md={4} className='homeButtons'>
                 <div className='homeButtons'>
                     <h1>Teresa Arranz Carrasco</h1>
                     <div className='homeButtons'>
