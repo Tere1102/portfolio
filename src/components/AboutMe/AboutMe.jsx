@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <div className='img'>
                     <img src={perfil} alt=" foto de perfil" />
                 </div>
-                <p>Hola!👋🏽 Soy Teresa Arranz, graduada en desarrollo web en marzo de 2024. Apasionada por el mundo tecnológico, siempre estoy en búsqueda de nuevos aprendizajes, retos y proyectos. ¡No dudes en contar conmigo para las tuyos! 🚀</p>
+                <p>Hola!👋🏽 Soy Teresa Arranz, graduada en desarrollo web en marzo de 2024. Apasionada por el mundo tecnológico, siempre estoy en búsqueda de nuevos aprendizajes, retos y proyectos. ¡No dudes en contar conmigo para los tuyos! 🚀</p>
                 <section className='techIcons'>
 
                     <div lassName='techImg'>

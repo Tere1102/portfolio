@@ -1,8 +1,6 @@
 import './../Home/Home.css'
 import React from 'react'
-import Animation from './../Animation/Animation'
 import { Row, Col } from 'react-bootstrap'
-import Animation2 from './../../assets/Animation2.gif'
 
 const Home = () => {
     return (
@@ -36,7 +34,6 @@ const Home = () => {
                 </div>
 
             </Col>
-            <Animation />
         </Row>
 
 

@@ -72,9 +72,20 @@
     color: black;
 }
 
+
+.web-link {
+    text-decoration: none;
+    color: black;
+}
+
 .github-icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.web-icon {
+    width: 25px;
+    height: 25px;
 }
 
 @media (max-width: 768px) {
