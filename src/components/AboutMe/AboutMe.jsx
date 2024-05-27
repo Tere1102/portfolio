@@ -34,27 +34,29 @@ const AboutMe = () => {
                 </div>
             </article>
 
-            <div className='education'>
-                <h2>Formación</h2>
-                <div>
-                    <h3>Ironhack Spain</h3>
-                    <span>2024 - Bootcamp Desarrollo Web</span>
-                </div>
-                <h2>Tecnologías</h2>
-                <div>
-                    <h3>Front-end</h3>
-                    <span>HTML5, CSS, JavaScript, React.js, React Bootstrap</span>
-                </div>
-                <div>
-                    <h3>Back-end</h3>
-                    <span>Node.js, MongoDB, Mongoose</span>
+            <article className='intro2'>
+
+                <div className='education'>
+                    <h2>Formación</h2>
+                    <div>
+                        <h3>Ironhack Spain</h3>
+                        <span>2024 - Bootcamp Desarrollo Web</span>
+                    </div>
+                    <h2>Tecnologías</h2>
+                    <div>
+                        <h3>Front-end</h3>
+                        <span>HTML5, CSS, JavaScript, React.js, React Bootstrap</span>
+                    </div>
+                    <div>
+                        <h3>Back-end</h3>
+                        <span>Node.js, MongoDB, Mongoose</span>
+
+                    </div>
+
+
 
                 </div>
-
-
-
-            </div>
-
+            </article>
         </section>
 
 
