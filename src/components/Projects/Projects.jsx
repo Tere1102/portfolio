@@ -51,10 +51,10 @@ const Projects = () => {
                     <Row key={index} className='mb-4 project-row'>
 
                         <Col md={5} className='project-image'>
-                            <img src={card.image} alt={card.name} style={{ width: '500px' }} />
+                            <img src={card.image} alt={card.name} />
                         </Col>
 
-                        <Col md={7} className='project-details' style={{ width: '600px' }} >
+                        <Col md={7} className='project-details' >
                             <h3>{card.name}</h3>
                             <p>{card.description}</p>
                             <div className='tech-icons'>
@@ -69,7 +69,7 @@ const Projects = () => {
                             </div>
                             <div className='web-link'>
                                 <a className='web-link' href={card.url2} target='_blank' rel='noopener noreferrer'>
-                                    **Pulsa para entrar en la web <img src={web} alt='web logo' className='web-icon' />
+                                    **Pulsa para visitar la App <img src={web} alt='web logo' className='web-icon' />
                                 </a>
                             </div>
                         </Col>

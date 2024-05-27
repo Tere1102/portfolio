@@ -6,7 +6,6 @@
     text-align: center;
 }
 
-/* Ocultar el footer en pantallas pequeñas */
 @media (max-width: 768px) {
     .Footer {
         display: none;

@@ -58,6 +58,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .aboutMe .education div {
@@ -86,10 +87,16 @@
 }
 
 
+@media (max-width: 600px) {
+    .aboutMe {
+        padding-bottom: 30vh;
+    }
+}
 
 @media (min-width: 600px) {
     .aboutMe {
         grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        padding-bottom: 30vh;
     }
 
     .aboutMe .intro .img {

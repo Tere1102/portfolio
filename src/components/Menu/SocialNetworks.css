@@ -11,19 +11,14 @@
     height: 25px;
 }
 
-/* Para dispositivos móviles */
 @media (max-width: 768px) {
     .navStyles {
         flex-direction: column;
-        /* Cambia a una disposición de columna */
         align-items: center;
-        /* Centra los elementos */
         gap: 10px;
-        /* Añade espacio entre elementos */
     }
 
     .navLink {
         margin-bottom: 10px;
-        /* Añade espacio debajo de cada enlace */
     }
 }
