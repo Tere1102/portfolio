@@ -18,18 +18,10 @@ const Projects = () => {
         {
             image: P2,
             name: 'Traffic-Jungle',
-            description: 'Traffic-Jungle es un videojuego arcade 2D para pc desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los vehiculos del tablero sin que colisionen entre ellos.',
+            description: 'Traffic-Jungle es un videojuego arcade 2D para pc desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los vehículos del tablero sin que colisionen entre ellos.',
             tech: [html, CSS, javascript],
             url: 'https://github.com/Tere1102/Traffic-Jungle',
             url2: 'https://traffic-jungle.netlify.app/'
-        },
-        {
-            image: P1,
-            name: 'RipCamp App',
-            description: 'RipCamp es una SPA (Single Page Application) creada en una semana con React, React Bootstrap, CSS y HTML. Conecta a los estudiantes actuales de los bootcamps de Data Analytics y Desarrollo Web, con ex alumnos y profesores para ayudarlos a resolver preguntas técnicas y problemas realiacionados con sus estudios y proyectos.',
-            tech: [html, CSS, javascript, bootstrap],
-            url: 'https://github.com/Tere1102/ripcamp-client',
-            url2: 'https://ripcamp.netlify.app/'
         },
         {
             image: P3,
@@ -38,7 +30,17 @@ const Projects = () => {
             tech: [html, CSS, javascript, bootstrap, nodejs, react],
             url: 'https://github.com/Tere1102/vetsproject-client',
             url2: 'https://miauyuda.netlify.app/'
+
+        },
+        {
+            image: P1,
+            name: 'RipCamp App',
+            description: 'RipCamp es una SPA (Single Page Application) creada en una semana con React, React Bootstrap, CSS y HTML. Conecta a los estudiantes actuales de los bootcamps de Data Analytics y Desarrollo Web, con ex alumnos y profesores para ayudarlos a resolver preguntas técnicas y problemas realiacionados con sus estudios y proyectos.',
+            tech: [html, CSS, javascript, bootstrap],
+            url: 'https://github.com/Tere1102/ripcamp-client',
+            url2: 'https://ripcamp.netlify.app/'
         }
+
     ];
 
     return (

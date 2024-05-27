@@ -13,7 +13,7 @@ const Home = () => {
                 <article className='homeArticle'>
                     <h1> Full Stack Developer</h1>
                     <p>Apasionada programadora con un enfoque especializado en el desarrollo web.
-                        Recientemente graduada del bootcamp de Ironhack Spain, con habilidades sólidas en la creación de aplicaciones web modernas y escalables. </p>
+                        Recientemente graduada en el bootcamp de Ironhack Spain, con habilidades sólidas en la creación de aplicaciones web modernas y escalables. </p>
                     <div className='homeDivs'>
                         <div></div>
                         <div></div>
