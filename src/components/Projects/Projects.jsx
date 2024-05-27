@@ -17,8 +17,8 @@ const Projects = () => {
     const cards = [
         {
             image: P2,
-            name: 'Traffic-Jungle',
-            description: 'Traffic-Jungle es un videojuego arcade 2D para pc desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los vehículos del tablero sin que colisionen entre ellos.',
+            name: 'Traffic Jungle',
+            description: 'Traffic Jungle es un videojuego arcade 2D para pc desarrollado utilizando únicamente JavaScript, CSS y HTML. Fue el primer proyecto del bootcamp de desarrollo web, presentado a la tercera semana de iniciar los estudios. Consiste en hacer salir a todos los coches del tablero sin que colisionen entre ellos, guiándote por las flechas de los mismos',
             tech: [html, CSS, javascript],
             url: 'https://github.com/Tere1102/Traffic-Jungle',
             url2: 'https://traffic-jungle.netlify.app/'
